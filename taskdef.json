@@ -1,0 +1,19 @@
+{
+    "family": "cybage-alm-jithin-ecs-taskdef",
+    "containerDefinitions": [
+        {
+            "image": "543816070942.dkr.ecr.us-east-1.amazonaws.com/cybage-alm-jithin-ecsdemo",
+            "name": "cybage-alm-jithin-ecsdemo",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 0
+                }
+            ]
+        }
+    ]
+}
+
